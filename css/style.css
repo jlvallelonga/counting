@@ -1,0 +1,82 @@
+body {
+	background: url('../images/gradient-bg.png') repeat-x #000000;
+}
+
+#container {
+	margin: 0 auto;
+	width: 900px;
+}
+
+#table {
+	background: #387D31;
+	height: 1500px;
+	border: 1px solid #000000;
+}
+
+.deck {
+	z-index: 0;
+}
+
+.card {
+	background: url('../images/cards_sprite.png');
+	background-position: -1px -1px;
+	width: 71px;
+	height: 96px;
+	float: left;
+}
+
+.maskedCard {
+	background: url('../images/cards_sprite_masked.png');
+	background-position: -1px -1px;
+	width: 71px;
+	height: 96px;
+	float: left;
+}
+
+.startCard {
+	background: url('../images/jack_black.jpg') no-repeat;
+	background-size: 69px 94px;
+	width: 69px;
+	height: 94px;
+	float: left;
+	border: #CCC solid 1px;
+	border-radius: 2px;
+}
+
+#count {
+	font-size: 45pt;
+}
+
+#countDiv {
+	float: right;
+	border: 1px solid #CCC;
+	height: auto;
+	text-align: center;
+}
+
+.controlDiv {
+	float: right;
+	border: 1px solid #CCC;
+	display: inline-block;
+	clear: both;
+}
+
+.controlDiv span{
+	float: right;
+	margin-top: 5px;
+}
+
+.controlDiv label{
+	float: left;
+}
+
+.controlDiv input{
+	float: left;
+}
+
+#trashCan {
+	width: 115px;
+	height: 150px;
+	background: #CCC;
+	padding: 5px;
+}

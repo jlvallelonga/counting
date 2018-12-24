@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" href="css/dark-hive/jquery-ui-1.8.21.custom.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/tests.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="table">
+			<div id="countDiv">
+				<label for="showCount">Show Count?</label>
+				<input type="checkbox" id="showCount" checked="checked" />
+				<div id="count">0</div>
+			</div>
+			<div class="controlDiv">
+				<label for="showCardLabels">Card Labels?</label>
+				<input type="checkbox" id="showCardLabels" checked="checked" /> 
+				<span class="ui-icon ui-icon-grip-dotted-vertical" style="margin-top: 1px;"></span>
+			</div>
+			<div class="controlDiv">
+				<input type="button" id="shuffle" value="Shuffle" />
+				<span class="ui-icon ui-icon-grip-dotted-vertical"></span>
+			</div>
+			<div class="controlDiv">
+				<input type="button" id="addPile" value="Add Pile" />
+				<span class="ui-icon ui-icon-grip-dotted-vertical"></span>
+			</div>
+			<div class="controlDiv">
+				<input type="button" id="incrementCards" value="Increment All Cards" />
+				<span class="ui-icon ui-icon-grip-dotted-vertical"></span>
+			</div>
+			<div class="controlDiv">
+				<input type="button" id="startFlipping" value="Start Flipping" />
+				<span class="ui-icon ui-icon-grip-dotted-vertical"></span>
+			</div>
+			<div class="controlDiv">
+				<input type="button" id="stopFlipping" value="Stop Flipping Flipping" />
+				<span class="ui-icon ui-icon-grip-dotted-vertical"></span>
+			</div>
+			<div class="controlDiv">
+				<label for="flipDelay">Flip Delay in milliseconds</label><br />
+				<input type="text" id="flipDelay" value="1000" />
+				<span class="ui-icon ui-icon-grip-dotted-vertical" style="margin-top: -5px;"></span>
+			</div>
+			<div class="deck startCard"></div>
+			<div class="deck startCard"></div>
+			<div id="trashCan">Trash Can - drag and drop piles to remove</div>
+		</div>
+	</div>
+</body>
+</html>
